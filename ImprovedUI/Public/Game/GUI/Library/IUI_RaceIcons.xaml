@@ -1336,6 +1336,13 @@
 				</Setter>
 			</DataTrigger>
 			<!-- EDIT HERE -->
+			<DataTrigger Binding="{Binding Guid}" Value="e31e1950-a4a2-464f-88a6-488e2863cd00">
+				<Setter Property="OpacityMask">
+					<Setter.Value>
+						<ImageBrush ImageSource="pack://application:,,,/GustavNoesisGUI;component/Assets/KittSimicHybridRace/CC/icons_races/SimicHybrid.png"/>
+					</Setter.Value>
+				</Setter>
+			</DataTrigger>
 		</Style.Triggers>
 	</Style>
 </ResourceDictionary>
